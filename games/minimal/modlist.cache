@@ -1,0 +1,37 @@
+return {
+-- Table: {1}
+{
+   {2},
+   {3},
+   {4},
+   {5},
+},
+-- Table: {2}
+{
+   ["description"]="Minecraft's redstone for minetest: Cables, effectors, receptors, gates",
+   ["url"]="ftp://ftp1853953:minetest@ftp-web.funpic.de:21/mesecons.zip",
+   ["version"]="9",
+   ["name"]="mesecons",
+},
+-- Table: {3}
+{
+   ["description"]="Add, remove, copy lots of blocks ingame",
+   ["url"]="ftp://ftp1853953:minetest@ftp-web.funpic.de:21/worldedit0.5.zip",
+   ["version"]="5",
+   ["name"]="worldedit",
+},
+-- Table: {4}
+{
+   ["version"]="2",
+   ["url"]="dummy.com",
+   ["name"]="dummy1",
+   ["description"]="none",
+},
+-- Table: {5}
+{
+   ["version"]="1",
+   ["url"]="dummy.com",
+   ["name"]="dummy2",
+   ["description"]="none",
+},
+}
