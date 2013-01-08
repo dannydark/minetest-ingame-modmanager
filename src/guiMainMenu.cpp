@@ -1197,15 +1197,12 @@ int GUIMainMenu::getTab()
 	return TAB_SINGLEPLAYER; // Default
 }
 
-<<<<<<< HEAD
-
 std::string GUIMainMenu::getSelectedGamePath()
 {
 				//Init Modmanager
 				char gamelist_id = ((gui::IGUIListBox*)getElementFromId(GUI_ID_MODMANAGER_GAMELIST))->getSelected();
 
-				if (gamelist_id == -1)
-				{
+				if (gamelist_id == -1) {
 					m_data->modmanager_status = wgettext("Error: No game selected");
 					return "";
 				}
@@ -1287,9 +1284,9 @@ void GUIMainMenu::createModDescription(ModManagerSpec spec)
 			+ "Description:	" + spec.description + "\n"
 			+ "Version:	" + tostring.str() + "\n";
 	Environment->addStaticText(narrow_to_wide(modmanager_info).c_str(), rect, false, true, this, GUI_ID_MODMANAGER_INFO);
-=======
+}
+
 void GUIMainMenu::displayMessageMenu(std::wstring msg)
 {
 	(new GUIMessageMenu(env, parent, -1, menumgr, msg))->drop();
->>>>>>> upstream/master
 }
